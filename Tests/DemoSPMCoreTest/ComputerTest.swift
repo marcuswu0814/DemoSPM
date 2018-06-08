@@ -13,4 +13,12 @@ class ComputerTest: XCTestCase {
         XCTAssertEqual(answer2, 17)
     }
     
+    func test__minusTwoInt__shouldEqual() {
+        let sut = Computer()
+
+        let answer = sut.minus(10, rhs: 12)
+        
+        XCTAssertEqual(answer, -2)
+    }
+    
 }
