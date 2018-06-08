@@ -13,7 +13,7 @@ run:
 	.build/release/$(PROD_NAME)
 
 test: xcode
-	set -o pipefail && xcodebuild -scheme RedmineBot-Package -enableCodeCoverage YES clean build test | xcpretty
+	set -o pipefail && xcodebuild -scheme DemoSPM-Package -enableCodeCoverage YES clean build test | xcpretty
 
 lint:
 	swiftlint
