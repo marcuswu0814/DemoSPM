@@ -8,4 +8,8 @@ public class Computer {
         return lhs + rhs
     }
     
+    public func minus(_ lhs: Int, rhs: Int) -> Int {
+        return lhs - rhs
+    }
+    
 }
